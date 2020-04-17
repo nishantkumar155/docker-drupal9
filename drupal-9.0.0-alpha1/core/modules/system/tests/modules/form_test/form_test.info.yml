@@ -1,0 +1,13 @@
+name: 'FormAPI Test'
+type: module
+description: 'Support module for Form API tests.'
+package: Testing
+# version: VERSION
+dependencies:
+  - file
+  - filter
+
+# Information added by Drupal.org packaging script on 2020-02-11
+version: '9.0.0-alpha1'
+project: 'drupal'
+datestamp: 1581447967

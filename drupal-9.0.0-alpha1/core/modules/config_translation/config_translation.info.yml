@@ -1,0 +1,13 @@
+name: 'Configuration Translation'
+type: module
+description: 'Provides a translation interface for configuration.'
+package: Multilingual
+# version: VERSION
+configure: config_translation.mapper_list
+dependencies:
+  - drupal:locale
+
+# Information added by Drupal.org packaging script on 2020-02-11
+version: '9.0.0-alpha1'
+project: 'drupal'
+datestamp: 1581447967
