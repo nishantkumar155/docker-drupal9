@@ -83,3 +83,6 @@ RUN apk add --update \
         php7-memcached \
         php7-oauth \
         php7-apcu
+
+# Copy php.ini memory limit increase    
+COPY php.ini /usr/local/etc/php/
